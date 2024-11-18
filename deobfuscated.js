@@ -1,7 +1,1744 @@
 (function () {
   const vWindow = window;
 
-  
+  vWindow[_0x5d3842(0x2008)] = {
+    'initUI': () => {
+        var _0x5f4db6 = _0x5d3842;
+        let _0xb43172 = document['body'],
+            _0x43c2cd = new guify({
+                'title': 'Client\x20For\x20Starve.io',
+                'theme': {
+                    'name': _0x5f4db6(0xb92),
+                    'colors': {
+                        'menuBarBackground': _0x5f4db6(0xad8),
+                        'menuBarText': 'rgb(42,\x2091,\x20147)',
+                        'panelBackground': 'rgb(0,0,0)',
+                        'componentBackground': _0x5f4db6(0x228b),
+                        'componentForeground': _0x5f4db6(0x3fd),
+                        'textPrimary': _0x5f4db6(0x2c37),
+                        'textSecondary': _0x5f4db6(0x19c8),
+                        'textHover': _0x5f4db6(0x2d60)
+                    },
+                    'font': {
+                        'fontFamily': 'Baloo\x20Paaji',
+                        'fontSize': _0x5f4db6(0xd72),
+                        'fontWeight': '1'
+                    }
+                },
+                'align': _0x5f4db6(0x2cec),
+                'width': 0x2bc,
+                'barMode': _0x5f4db6(0x66f),
+                'panelMode': _0x5f4db6(0x66f),
+                'opacity': 0.9,
+                'root': window[_0x5f4db6(0x1b53)],
+                'open': ![]
+            });
+        _0x43c2cd[_0x5f4db6(0x1291)]({
+            'type': _0x5f4db6(0x358),
+            'label': 'Visuals',
+            'open': ![]
+        }), _0x43c2cd[_0x5f4db6(0x1291)]({
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x1c07),
+            'open': !0x1
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': 'Checkboxes',
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0x1c07)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x2748),
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0x1c07)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': 'AutoSteal',
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0x1c07)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]({
+            'type': 'folder',
+            'label': 'AI',
+            'open': !0x1
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x74b),
+            'open': !0x1
+        }], {
+            'folder': 'AI'
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': 'folder',
+            'label': 'AutoFarm',
+            'open': !0x1
+        }], {
+            'folder': 'AI'
+        }), _0x43c2cd[_0x5f4db6(0x1291)]({
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x24c4),
+            'open': !0x1
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x2301),
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0x24c4)
+        }), _0x43c2cd['Register']([{
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x1c05),
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0x24c4)
+        }), _0x43c2cd['Register']({
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x7fb),
+            'open': ![]
+        }), _0x43c2cd['Register']({
+            'type': _0x5f4db6(0x358),
+            'label': 'AutoSpike',
+            'open': ![]
+        }), _0x43c2cd['Register']({
+            'type': 'folder',
+            'label': _0x5f4db6(0x24c6),
+            'open': ![]
+        }), _0x43c2cd['Register']({
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0xc6d),
+            'open': !0x1
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x1414),
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0xc6d)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': 'TrashTalk',
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0xc6d)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': _0x5f4db6(0x9e9),
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0xc6d)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': 'folder',
+            'label': 'Tracers',
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0xc6d)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x358),
+            'label': 'Autos',
+            'open': !0x1
+        }], {
+            'folder': _0x5f4db6(0xc6d)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x13f6),
+            'action': _0x984830 => {
+                var _0x58a18a = _0x5f4db6;
+                Utils[_0x58a18a(0x376)]['setKeyBind'](_0x58a18a(0x2b41));
+            }
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x15f4),
+            'object': Settings[_0x5f4db6(0x2b41)],
+            'property': 'k'
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0xfdf),
+            'object': Settings['AutoSpike'],
+            'property': 'm',
+            'onChange': _0x17e25c => {
+                var _0x18d8e8 = _0x5f4db6;
+                Utils[_0x18d8e8(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '1',
+            'object': Settings['AutoSpike']['p'],
+            'property': '0',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x297c), _0x5f4db6(0x627), _0x5f4db6(0x1b3a), _0x5f4db6(0xf20), 'Wood\x20Spike', _0x5f4db6(0x38b), _0x5f4db6(0x2a9e)],
+            'onChange': _0x2e4b0c => {
+                var _0x1ad214 = _0x5f4db6;
+                Utils[_0x1ad214(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '2',
+            'object': Settings[_0x5f4db6(0x2b41)]['p'],
+            'property': '1',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x297c), _0x5f4db6(0x627), _0x5f4db6(0x1b3a), 'Stone\x20Spike', _0x5f4db6(0xd1a), 'Wood\x20Wall', _0x5f4db6(0x2a9e)],
+            'onChange': _0x3f7027 => {
+                var _0x1e13a3 = _0x5f4db6;
+                Utils[_0x1e13a3(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '3',
+            'object': Settings[_0x5f4db6(0x2b41)]['p'],
+            'property': '2',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x297c), 'Diamond\x20Spike', _0x5f4db6(0x1b3a), 'Stone\x20Spike', _0x5f4db6(0xd1a), 'Wood\x20Wall', 'Nothing'],
+            'onChange': _0x3f80bd => {
+                var _0x3dee04 = _0x5f4db6;
+                Utils[_0x3dee04(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '4',
+            'object': Settings[_0x5f4db6(0x2b41)]['p'],
+            'property': '3',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x297c), _0x5f4db6(0x627), _0x5f4db6(0x1b3a), _0x5f4db6(0xf20), _0x5f4db6(0xd1a), _0x5f4db6(0x38b), 'Nothing'],
+            'onChange': _0x3ae358 => {
+                var _0x4b05b8 = _0x5f4db6;
+                Utils[_0x4b05b8(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '5',
+            'object': Settings['AutoSpike']['p'],
+            'property': '4',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x297c), _0x5f4db6(0x627), 'Gold\x20Spike', _0x5f4db6(0xf20), _0x5f4db6(0xd1a), _0x5f4db6(0x38b), 'Nothing'],
+            'onChange': _0x371c2d => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '6',
+            'object': Settings[_0x5f4db6(0x2b41)]['p'],
+            'property': '5',
+            'options': ['Reidite\x20Spike', _0x5f4db6(0x297c), _0x5f4db6(0x627), _0x5f4db6(0x1b3a), _0x5f4db6(0xf20), _0x5f4db6(0xd1a), 'Wood\x20Wall', _0x5f4db6(0x2a9e)],
+            'onChange': _0x5ca99e => {
+                var _0x39e380 = _0x5f4db6;
+                Utils[_0x39e380(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': '7',
+            'object': Settings['AutoSpike']['p'],
+            'property': '6',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x297c), _0x5f4db6(0x627), 'Gold\x20Spike', _0x5f4db6(0xf20), 'Wood\x20Spike', _0x5f4db6(0x38b), _0x5f4db6(0x2a9e)],
+            'onChange': _0x611e68 => {
+                Utils['saveSettings']();
+            }
+        }], {
+            'folder': _0x5f4db6(0x2b41)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x170c),
+            'action': _0x2858be => {
+                var _0x369618 = _0x5f4db6;
+                Utils[_0x369618(0x376)][_0x369618(0x1253)](_0x369618(0x2874));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'AutoSteal\x20Key:',
+            'object': Settings[_0x5f4db6(0x2874)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2874),
+            'object': Settings[_0x5f4db6(0x2874)],
+            'property': 'e',
+            'onChange': _0x4eefd3 => {
+                var _0x31f05a = _0x5f4db6;
+                Utils[_0x31f05a(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x165f),
+            'object': Settings[_0x5f4db6(0x2874)],
+            'property': 'u',
+            'onChange': _0x29dfbd => {
+                var _0x19d78b = _0x5f4db6;
+                Utils[_0x19d78b(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x87e),
+            'label': _0x5f4db6(0xb5f),
+            'min': 0x0,
+            'max': 0x2710,
+            'step': 0x1,
+            'object': Settings['AutoSteal'],
+            'property': 'o',
+            'onChange': _0x491928 => {
+                var _0x40461b = _0x5f4db6;
+                Utils[_0x40461b(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0xd1e),
+            'action': _0x1fbd8b => {
+                var _0x132de1 = _0x5f4db6;
+                Settings[_0x132de1(0x2874)]['l'][_0x132de1(0x2192)](Settings[_0x132de1(0x2874)]['o']);
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': 'Delete\x20ID',
+            'action': _0x6a163 => {
+                var _0x57fbbf = _0x5f4db6;
+                let _0x32bf16 = Settings['AutoSteal']['l'][_0x57fbbf(0xf79)](Settings[_0x57fbbf(0x2874)]['o']);
+                _0x32bf16 !== -0x1 && Settings['AutoSteal']['l'][_0x57fbbf(0x220c)](_0x32bf16, 0x1);
+            }
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x2610),
+            'action': _0x2cbcec => {
+                Settings['AutoSteal']['l'] = [];
+            }
+        }], {
+            'folder': _0x5f4db6(0x2874)
+        }), _0x43c2cd['Register']([{
+            'type': _0x5f4db6(0x1da8),
+            'label': _0x5f4db6(0x13c7)
+        }, {
+            'type': _0x5f4db6(0x2783),
+            'label': _0x5f4db6(0x2354),
+            'object': Settings[_0x5f4db6(0x88b)]['c'],
+            'property': '0',
+            'options': [_0x5f4db6(0x2ad1), _0x5f4db6(0x2299)],
+            'onChange': _0x35eff4 => {
+                var _0x39c450 = _0x5f4db6;
+                Utils[_0x39c450(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2dc),
+            'object': Settings['wrenching'],
+            'property': 'e',
+            'onChange': _0x424aa6 => {}
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x18c9),
+            'action': _0x5bf504 => {
+                var _0x1d0a59 = _0x5f4db6;
+                let _0x546cd5 = p[_0x1d0a59(0xae3)][m[_0x1d0a59(0x243b)]];
+                _0x546cd5 && (Settings[_0x1d0a59(0x1f42)]['x'] = _0x546cd5['x'], Settings['wrenching']['y'] = _0x546cd5['y']);;
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0xab5),
+            'action': _0x359cc1 => {
+                var _0x20399e = _0x5f4db6;
+                let _0x2968bd = p['$Vu'][m['vUU']];
+                _0x2968bd && (Settings[_0x20399e(0x1f42)]['xx'] = _0x2968bd['x'], Settings[_0x20399e(0x1f42)]['yy'] = _0x2968bd['y']);;
+            }
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x673),
+            'action': _0x525eb0 => {
+                var _0x17ee5c = _0x5f4db6;
+                let _0x503211 = p['$Vu'][m[_0x17ee5c(0x243b)]];
+                _0x503211 && (Settings[_0x17ee5c(0x1f42)]['sx'] = _0x503211['x'], Settings['wrenching']['sy'] = _0x503211['y']);;
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x10df),
+            'object': Settings['wrenching'],
+            'property': 'x'
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x2bf7),
+            'object': Settings['wrenching'],
+            'property': 'xx'
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0xeba),
+            'object': Settings[_0x5f4db6(0x1f42)],
+            'property': 'sy'
+        }], {
+            'folder': 'AutoWrenching'
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2a24),
+            'object': Settings[_0x5f4db6(0x2a24)],
+            'property': 'e',
+            'onChange': _0x32887b => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x1705),
+            'object': Settings[_0x5f4db6(0x1705)],
+            'property': 'e',
+            'onChange': _0x3c5354 => {
+                var _0x92be0e = _0x5f4db6;
+                Utils[_0x92be0e(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x8a0),
+            'action': _0x5a8b44 => {
+                var _0x261de2 = _0x5f4db6;
+                Utils[_0x261de2(0x376)]['setKeyBind'](_0x261de2(0x2a24));
+            }
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x1bc1),
+            'object': Settings['AutoCraft'],
+            'property': 'k'
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x198e),
+            'action': _0x1e4ca1 => {
+                var _0x4e045b = _0x5f4db6;
+                Utils[_0x4e045b(0x376)]['setKeyBind'](_0x4e045b(0x1705));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'AutoRecycle\x20Key:',
+            'object': Settings[_0x5f4db6(0x1705)],
+            'property': 'k'
+        }], {
+            'folder': _0x5f4db6(0x24c6)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x2013),
+            'object': Settings[_0x5f4db6(0x74b)],
+            'property': 'e',
+            'onChange': _0x249148 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x12ac),
+            'object': Settings[_0x5f4db6(0x74b)],
+            'property': 'g',
+            'onChange': _0x36cee4 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x28a9),
+            'action': _0x101165 => {
+                var _0x3c13ce = _0x5f4db6;
+                let _0x4d48df = p[_0x3c13ce(0xae3)][m['vUU']];
+                _0x4d48df && (PathfinderEnd['x'] = Math[_0x3c13ce(0x87a)](_0x4d48df['x'] / 0x64), PathfinderEnd['y'] = Math['floor'](_0x4d48df['y'] / 0x64));;
+            }
+        }, {
+            'type': _0x5f4db6(0x1874),
+            'label': _0x5f4db6(0x2d5a),
+            'object': PathfinderEnd,
+            'property': 'x',
+            'onChange': _0x406ebe => {}
+        }, {
+            'type': _0x5f4db6(0x1874),
+            'label': _0x5f4db6(0x142a),
+            'object': PathfinderEnd,
+            'property': 'y',
+            'onChange': _0x2686c2 => {}
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'Target\x20X',
+            'object': PathfinderEnd,
+            'property': 'x'
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x1324),
+            'object': PathfinderEnd,
+            'property': 'y'
+        }], {
+            'folder': _0x5f4db6(0x74b)
+        }), _0x43c2cd['Register']([{
+            'type': _0x5f4db6(0x18f7),
+            'label': 'Set\x20AutoExtractor\x20Put\x20Key',
+            'action': _0x34be7a => {
+                var _0xf61e1f = _0x5f4db6;
+                Utils[_0xf61e1f(0x376)]['setKeyBind'](_0xf61e1f(0x243c));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x2548),
+            'object': Settings['AutoExtPut'],
+            'property': 'k'
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x21ab),
+            'action': _0x9cdda => {
+                var _0x5859d7 = _0x5f4db6;
+                Utils['controls'][_0x5859d7(0x1253)](_0x5859d7(0x79e));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x1c54),
+            'object': Settings[_0x5f4db6(0x79e)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x29bf),
+            'action': _0x51242f => {
+                var _0xd41157 = _0x5f4db6;
+                Utils[_0xd41157(0x376)][_0xd41157(0x1253)]('AutoBreadTake');
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0xc1d),
+            'object': Settings['AutoBreadTake'],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x2383),
+            'action': _0x2391b => {
+                var _0x4c6f9b = _0x5f4db6;
+                Utils[_0x4c6f9b(0x376)]['setKeyBind']('AutoBreadPut');
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x31e),
+            'object': Settings[_0x5f4db6(0x206b)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x14e4),
+            'action': _0x107b30 => {
+                var _0x4f76a2 = _0x5f4db6;
+                Utils[_0x4f76a2(0x376)][_0x4f76a2(0x1253)](_0x4f76a2(0x1b03));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x1aca),
+            'object': Settings[_0x5f4db6(0x1b03)],
+            'property': 'k'
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x1120),
+            'action': _0x32d61f => {
+                var _0x3bdc50 = _0x5f4db6;
+                Utils[_0x3bdc50(0x376)][_0x3bdc50(0x1253)](_0x3bdc50(0x133e));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x2c21),
+            'object': Settings[_0x5f4db6(0x133e)],
+            'property': 'k'
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x2147),
+            'action': _0x53d24f => {
+                var _0x43ce39 = _0x5f4db6;
+                Utils[_0x43ce39(0x376)][_0x43ce39(0x1253)]('Xray');
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x1e1d),
+            'object': Settings['Xray'],
+            'property': 'k'
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0x488),
+            'action': _0x3f3a08 => {
+                var _0x2e71ec = _0x5f4db6;
+                Utils[_0x2e71ec(0x376)][_0x2e71ec(0x1253)](_0x2e71ec(0x179c));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x203a),
+            'object': Settings['AutoBridge'],
+            'property': 'k'
+        }, {
+            'type': 'button',
+            'label': 'Set\x20PathFinder\x20Key',
+            'action': _0x4efbc6 => {
+                var _0x42a9b4 = _0x5f4db6;
+                Utils['controls'][_0x42a9b4(0x1253)]('PathFinder');
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'PathFinder\x20Key:',
+            'object': Settings[_0x5f4db6(0x74b)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x2755),
+            'action': _0x1770b9 => {
+                var _0x3eda04 = _0x5f4db6;
+                Utils['controls']['setKeyBind'](_0x3eda04(0x2a4f));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x2440),
+            'object': Settings[_0x5f4db6(0x2a4f)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x1a0f),
+            'action': _0x21b45a => {
+                var _0xe9964b = _0x5f4db6;
+                Utils[_0xe9964b(0x376)][_0xe9964b(0x1253)](_0xe9964b(0x2337));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x17d2),
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x24d5),
+            'action': _0x310f40 => {
+                var _0x27564c = _0x5f4db6;
+                Utils['controls'][_0x27564c(0x1253)](_0x27564c(0x2a54));
+            }
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x162e),
+            'object': Settings[_0x5f4db6(0x2a54)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0xa7e),
+            'action': _0x21877a => {
+                var _0x2928fd = _0x5f4db6;
+                Utils[_0x2928fd(0x376)][_0x2928fd(0x1253)](_0x2928fd(0x2864)), vechilelist;
+            }
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x2766),
+            'object': Settings[_0x5f4db6(0x2864)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x21f1),
+            'action': _0xebb7ad => {
+                var _0x18eca0 = _0x5f4db6;
+                Utils['controls'][_0x18eca0(0x1253)](_0x18eca0(0x439));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'DropSword\x20Key:',
+            'object': Settings['DropSword'],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x1f55),
+            'action': _0x583684 => {
+                var _0x2a30fe = _0x5f4db6;
+                Utils[_0x2a30fe(0x376)][_0x2a30fe(0x1253)](_0x2a30fe(0x15a1));
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x2cc7),
+            'object': Settings[_0x5f4db6(0x15a1)],
+            'property': 'k'
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': _0x5f4db6(0x6fe),
+            'action': _0x329cf7 => {
+                Utils['controls']['setKeyBind']('AutoVechile');
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x1f38),
+            'object': Settings[_0x5f4db6(0xc97)],
+            'property': 'k'
+        }, {
+            'type': 'select',
+            'label': _0x5f4db6(0x29f),
+            'object': Settings[_0x5f4db6(0x2d7d)]['c'],
+            'property': '0',
+            'options': [_0x5f4db6(0x55e), _0x5f4db6(0x29a0), _0x5f4db6(0x19f7), _0x5f4db6(0x20b0)],
+            'onChange': _0x5bba2b => {
+                Utils['saveSettings']();
+            }
+        }], {
+            'folder': _0x5f4db6(0x2748)
+        }), _0x43c2cd['Register']([{
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x3e3),
+            'object': Settings[_0x5f4db6(0x179c)],
+            'property': 'e',
+            'onChange': _0x3a37cc => {
+                var _0x1354c9 = _0x5f4db6;
+                Utils[_0x1354c9(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': 'Show\x20Day\x20Info',
+            'object': Settings,
+            'property': _0x5f4db6(0x9c7),
+            'onChange': _0x35b383 => {
+                var _0xf01519 = _0x5f4db6;
+                Utils[_0xf01519(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2c97),
+            'object': Settings,
+            'property': _0x5f4db6(0x4e8),
+            'onChange': _0x4374a6 => {
+                var _0x328850 = _0x5f4db6;
+                Utils[_0x328850(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2664),
+            'object': Settings,
+            'property': _0x5f4db6(0x23c3),
+            'onChange': _0x3c432 => {
+                var _0x461ab6 = _0x5f4db6;
+                Utils[_0x461ab6(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': 'Equip\x20after\x20place',
+            'object': Settings,
+            'property': _0x5f4db6(0x1e05),
+            'onChange': _0x430eed => {
+                var _0x2931a8 = _0x5f4db6;
+                Utils[_0x2931a8(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0xbf2),
+            'object': Settings[_0x5f4db6(0x79e)],
+            'property': 'e',
+            'onChange': _0x35ccf4 => {
+                var _0x5557d9 = _0x5f4db6;
+                Utils[_0x5557d9(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'AutoExtractor\x20Put',
+            'object': Settings[_0x5f4db6(0x243c)],
+            'property': 'e',
+            'onChange': _0xaf9af8 => {
+                var _0x5939ff = _0x5f4db6;
+                Utils[_0x5939ff(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x38a),
+            'object': Settings[_0x5f4db6(0x1c32)],
+            'property': 'e',
+            'onChange': _0x1d0d32 => {
+                var _0x1474cd = _0x5f4db6;
+                Utils[_0x1474cd(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x5eb),
+            'object': Settings[_0x5f4db6(0x206b)],
+            'property': 'e',
+            'onChange': _0x5c9005 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2d5d),
+            'object': Settings[_0x5f4db6(0x2a54)],
+            'property': 'e',
+            'onChange': _0x1f7171 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'AutoRespawn',
+            'object': Settings,
+            'property': 'Respawn',
+            'onChange': _0x68c525 => {
+                var _0x4625ef = _0x5f4db6;
+                Utils[_0x4625ef(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0xd82),
+            'object': Settings,
+            'property': _0x5f4db6(0x2cc0),
+            'onChange': _0x2f4cc7 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x112b),
+            'object': Settings,
+            'property': _0x5f4db6(0x207e),
+            'onChange': _0xcf438a => {
+                var _0x530392 = _0x5f4db6;
+                Utils[_0x530392(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'AutoTotem',
+            'object': Settings['AutoTotem'],
+            'property': 'e',
+            'onChange': _0x4441ac => {
+                var _0x9ab097 = _0x5f4db6;
+                Utils[_0x9ab097(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x244b),
+            'object': Settings,
+            'property': _0x5f4db6(0x244b),
+            'onChange': _0x55409c => {
+                var _0x4ae552 = _0x5f4db6;
+                Utils[_0x4ae552(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'AutoIce',
+            'object': Settings,
+            'property': _0x5f4db6(0x25ee),
+            'onChange': _0x558d4f => {
+                var _0x38c8a8 = _0x5f4db6;
+                Utils[_0x38c8a8(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x1b03),
+            'object': Settings[_0x5f4db6(0x1b03)],
+            'property': 'e',
+            'onChange': _0x59f74d => {
+                var _0xce4408 = _0x5f4db6;
+                Utils[_0xce4408(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x1380),
+            'object': Settings[_0x5f4db6(0x1a24)],
+            'property': 'e',
+            'onChange': _0x24ec52 => {
+                var _0x56041c = _0x5f4db6;
+                Utils[_0x56041c(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'SpawnBypass',
+            'object': Settings,
+            'property': _0x5f4db6(0x1eb),
+            'onChange': _0x26f7d2 => {
+                var _0x5c8757 = _0x5f4db6;
+                Utils[_0x5c8757(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x1c06),
+            'object': Settings,
+            'property': 'DDosProtect',
+            'onChange': _0x1e06e2 => {
+                var _0x2655ed = _0x5f4db6;
+                Settings['DDosProtect'] = _0x1e06e2, Utils[_0x2655ed(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x102f),
+            'object': Settings,
+            'property': 'AutoDiving',
+            'onChange': _0x5d3fed => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x87e),
+            'label': _0x5f4db6(0x268),
+            'min': 0xa,
+            'max': 0x1f40,
+            'step': 0x1,
+            'object': Settings,
+            'property': _0x5f4db6(0x1dd7),
+            'onChange': _0x4bd8f5 => {
+                var _0x13a1b5 = _0x5f4db6;
+                Utils[_0x13a1b5(0x2aaf)]();
+            }
+        }], {
+            'folder': 'Checkboxes'
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20Last\x20Death\x20On\x20Map',
+            'object': Settings,
+            'property': _0x5f4db6(0x2940),
+            'onChange': _0x342f49 => {
+                var _0x117b74 = _0x5f4db6;
+                Utils[_0x117b74(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x1551),
+            'object': Settings,
+            'property': _0x5f4db6(0x570),
+            'onChange': _0xb3cefc => {
+                var _0xae4608 = _0x5f4db6;
+                Utils[_0xae4608(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x216e),
+            'object': Settings,
+            'property': 'BS',
+            'onChange': _0x1933c5 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x118c),
+            'object': Settings,
+            'property': _0x5f4db6(0xa4c),
+            'onChange': _0x280c90 => {
+                var _0xbdc9b7 = _0x5f4db6;
+                Utils[_0xbdc9b7(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x442),
+            'object': Settings,
+            'property': _0x5f4db6(0x2960),
+            'onChange': _0x2135ab => {
+                var _0x52a40d = _0x5f4db6;
+                Utils[_0x52a40d(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2da6),
+            'object': Settings,
+            'property': _0x5f4db6(0xf68),
+            'onChange': _0x1dfa64 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x29ea),
+            'object': Settings,
+            'property': _0x5f4db6(0xfe6),
+            'onChange': _0x236e1b => {
+                var _0x50e1ed = _0x5f4db6;
+                Utils[_0x50e1ed(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20If\x20in\x20bed',
+            'object': Settings,
+            'property': _0x5f4db6(0xb73),
+            'onChange': _0x27a2f6 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20Ally/Enemy\x20Spikes',
+            'object': Settings,
+            'property': _0x5f4db6(0xbdc),
+            'onChange': _0x966728 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2b58),
+            'object': Settings,
+            'property': _0x5f4db6(0x117d),
+            'onChange': _0x506123 => {
+                var _0x4ce2e5 = _0x5f4db6;
+                Utils[_0x4ce2e5(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20LockedChests',
+            'object': Settings,
+            'property': _0x5f4db6(0x1520),
+            'onChange': _0x1ac123 => {
+                var _0x41e5b7 = _0x5f4db6;
+                Utils[_0x41e5b7(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x84e),
+            'object': Settings,
+            'property': _0x5f4db6(0xad1),
+            'onChange': _0x2de99d => {
+                var _0x378e77 = _0x5f4db6;
+                Utils[_0x378e77(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x12e0),
+            'object': Settings,
+            'property': 'fireinfo',
+            'onChange': _0x2aba53 => {
+                var _0x5cbb17 = _0x5f4db6;
+                Utils[_0x5cbb17(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0xc4e),
+            'object': Settings,
+            'property': _0x5f4db6(0x4c7),
+            'onChange': _0x225928 => {
+                var _0x1cbb9a = _0x5f4db6;
+                Utils[_0x1cbb9a(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x1836),
+            'object': Settings,
+            'property': _0x5f4db6(0x1f1f),
+            'onChange': _0x5e9f9a => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x1ef6),
+            'object': Settings,
+            'property': _0x5f4db6(0x3a5),
+            'onChange': _0xe9e67a => {
+                var _0x1703a6 = _0x5f4db6;
+                Utils[_0x1703a6(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x24f7),
+            'object': Settings,
+            'property': _0x5f4db6(0x1012),
+            'onChange': _0x48e57f => {
+                var _0x2df2b1 = _0x5f4db6;
+                Utils[_0x2df2b1(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20Chest\x20On\x20Top',
+            'object': Settings,
+            'property': _0x5f4db6(0x227c),
+            'onChange': _0x54e30c => {
+                var _0x43107e = _0x5f4db6;
+                Utils[_0x43107e(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0xb54),
+            'object': Settings,
+            'property': 'BoxOntop',
+            'onChange': _0x3c922d => {
+                var _0xe24432 = _0x5f4db6;
+                Utils[_0xe24432(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x250a),
+            'object': Settings,
+            'property': _0x5f4db6(0x18d4),
+            'onChange': _0x43d1bc => {
+                var _0x45ce7a = _0x5f4db6;
+                Utils[_0x45ce7a(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20Totem\x20On\x20Map',
+            'object': Settings,
+            'property': _0x5f4db6(0x2c76),
+            'onChange': _0x5ac8f5 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x27af),
+            'object': Settings,
+            'property': _0x5f4db6(0x455),
+            'onChange': _0x25f94e => {
+                var _0xec0200 = _0x5f4db6;
+                Utils[_0xec0200(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20Hood\x20Names',
+            'object': Settings,
+            'property': _0x5f4db6(0x1870),
+            'onChange': _0x1f050d => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x97f),
+            'object': Settings,
+            'property': _0x5f4db6(0x2471),
+            'onChange': _0x512822 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x1e20),
+            'object': Settings,
+            'property': _0x5f4db6(0x106e),
+            'onChange': _0x2a5c9a => {
+                var _0x46140e = _0x5f4db6;
+                Utils[_0x46140e(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x21d6),
+            'object': Settings,
+            'property': _0x5f4db6(0x243),
+            'onChange': _0x2c7db2 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x14b4),
+            'object': Settings,
+            'property': _0x5f4db6(0x21f6),
+            'onChange': _0x24f87e => {
+                var _0x43beb0 = _0x5f4db6;
+                Utils[_0x43beb0(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2c5c),
+            'object': Settings,
+            'property': _0x5f4db6(0x2353),
+            'onChange': _0x1df54d => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Show\x20Player\x20Stats',
+            'object': Settings,
+            'property': 'stats',
+            'onChange': _0x52da41 => {
+                var _0x524f70 = _0x5f4db6;
+                Utils[_0x524f70(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': 'Show\x20ESP',
+            'object': Settings,
+            'property': _0x5f4db6(0xb4e),
+            'onChange': _0x5946b9 => {
+                var _0x241510 = _0x5f4db6;
+                Utils[_0x241510(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2b48),
+            'object': Settings,
+            'property': 'hoodcooldown',
+            'onChange': _0x4abe93 => {
+                var _0x251ddc = _0x5f4db6;
+                Utils[_0x251ddc(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x48e),
+            'object': Settings,
+            'property': 'NoFog',
+            'onChange': _0x43c077 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x1fdf),
+            'object': Settings,
+            'property': 'Roofs',
+            'onChange': _0x12fd1b => {
+                var _0x12c323 = _0x5f4db6;
+                Utils[_0x12c323(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x17cf),
+            'object': Settings[_0x5f4db6(0x17cf)],
+            'property': 'e',
+            'onChange': _0x132875 => {
+                var _0x486fd7 = _0x5f4db6;
+                Utils[_0x486fd7(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2d8),
+            'object': Settings[_0x5f4db6(0x2bc6)],
+            'property': 'e',
+            'onChange': _0x141a24 => {
+                var _0x3bd32e = _0x5f4db6;
+                Utils[_0x3bd32e(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x87e),
+            'label': _0x5f4db6(0x1fe5),
+            'min': 0x0,
+            'max': 0x1,
+            'step': 0.1,
+            'object': Settings[_0x5f4db6(0x17cf)],
+            'property': 'o',
+            'onChange': _0x54f1cd => {
+                var _0x144dd6 = _0x5f4db6;
+                Utils[_0x144dd6(0x2aaf)]();
+            }
+        }], {
+            'folder': _0x5f4db6(0x2bd1)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x32d),
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'e',
+            'onChange': _0x369ab7 => {
+                var _0xc57fb = _0x5f4db6;
+                Utils[_0xc57fb(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x1cac),
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'w',
+            'onChange': _0x5317c0 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': 'Top\x20left\x20of\x20farm',
+            'action': _0x5cbdea => {
+                var _0x149dd8 = _0x5f4db6;
+                let _0x2983cd = p['$Vu'][m[_0x149dd8(0x243b)]];
+                _0x2983cd && (Settings[_0x149dd8(0x2337)]['x'] = _0x2983cd['x'], Settings['Autofarm']['y'] = _0x2983cd['y']);;
+            }
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0xe7d),
+            'action': _0xe78a1 => {
+                var _0xd95560 = _0x5f4db6;
+                let _0x2471b0 = p[_0xd95560(0xae3)][m[_0xd95560(0x243b)]];
+                _0x2471b0 && (Settings[_0xd95560(0x2337)]['xx'] = _0x2471b0['x'], Settings['Autofarm']['yy'] = _0x2471b0['y']);;
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': 'Safe\x20Point',
+            'action': _0x17a463 => {
+                var _0x56010d = _0x5f4db6;
+                let _0x518510 = p[_0x56010d(0xae3)][m[_0x56010d(0x243b)]];
+                _0x518510 && (Settings[_0x56010d(0x2337)]['sx'] = _0x518510['x'], Settings[_0x56010d(0x2337)]['sy'] = _0x518510['y']);;
+            }
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'X',
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'x'
+        }, {
+            'type': 'display',
+            'label': 'Y',
+            'object': Settings['Autofarm'],
+            'property': 'y'
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'X1',
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'xx'
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'Y1',
+            'object': Settings['Autofarm'],
+            'property': 'yy'
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'SX',
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'sx'
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': 'SY',
+            'object': Settings[_0x5f4db6(0x2337)],
+            'property': 'sy'
+        }], {
+            'folder': _0x5f4db6(0x1020)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x1874),
+            'label': _0x5f4db6(0xc1b),
+            'object': Settings[_0x5f4db6(0x24c4)],
+            'property': 'i',
+            'onChange': _0x4deca4 => {}
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Start\x20Follow\x20To\x20Player',
+            'object': Settings[_0x5f4db6(0x24c4)],
+            'property': 'e',
+            'onChange': _0x393673 => {}
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x4a9),
+            'object': Show,
+            'property': 'id',
+            'onChange': _0x1adae1 => {}
+        }], {
+            'folder': _0x5f4db6(0x2301)
+        }), _0x43c2cd['Register']([{
+            'type': _0x5f4db6(0x1da8),
+            'label': _0x5f4db6(0x206c)
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x13d4),
+            'object': Settings[_0x5f4db6(0x12b2)],
+            'property': 'active',
+            'onChange': _0x576496 => {}
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x1222),
+            'object': Settings[_0x5f4db6(0x12b2)],
+            'property': 'server',
+            'onChange': _0x3f62a1 => {}
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x24b1),
+            'object': Settings[_0x5f4db6(0x12b2)],
+            'property': _0x5f4db6(0x9b6),
+            'onChange': _0x1e12d1 => {}
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x22b6),
+            'object': Settings[_0x5f4db6(0x12b2)],
+            'property': _0x5f4db6(0x83e),
+            'onChange': _0x3c44c3 => {}
+        }, {
+            'type': 'display',
+            'label': _0x5f4db6(0x1418),
+            'object': Show,
+            'property': 'score',
+            'onChange': _0x1164f7 => {}
+        }, {
+            'type': _0x5f4db6(0x1874),
+            'label': _0x5f4db6(0x2a0f),
+            'object': Settings[_0x5f4db6(0x12b2)],
+            'property': _0x5f4db6(0x2ba1),
+            'onChange': _0x58d085 => {}
+        }], {
+            'folder': 'Botting'
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0xe7c),
+            'object': lastSettings,
+            'property': _0x5f4db6(0x2a05)
+        }, {
+            'type': _0x5f4db6(0x26e1),
+            'label': _0x5f4db6(0x133d),
+            'object': lastSettings,
+            'property': _0x5f4db6(0x470)
+        }, {
+            'type': _0x5f4db6(0x1874),
+            'label': 'Set\x20Token',
+            'object': Settings[_0x5f4db6(0x1414)],
+            'property': _0x5f4db6(0x2ba1),
+            'onChange': _0x4a2073 => {}
+        }, {
+            'type': _0x5f4db6(0x1874),
+            'label': _0x5f4db6(0x179e),
+            'object': Settings['JoinToken'],
+            'property': 'id',
+            'onChange': _0x104f9d => {}
+        }, {
+            'type': 'button',
+            'label': _0x5f4db6(0xe01),
+            'action': _0x55a1b9 => {
+                var _0x435d53 = _0x5f4db6;
+                token = Settings[_0x435d53(0x1414)][_0x435d53(0x2ba1)], tokenid = Settings[_0x435d53(0x1414)]['id'], lastSettings[_0x435d53(0x470)] = tokenid, lastSettings[_0x435d53(0x2a05)] = token;
+            }
+        }, {
+            'type': _0x5f4db6(0x18f7),
+            'label': 'Get\x20Token',
+            'action': _0x181739 => {
+                var _0x469644 = _0x5f4db6;
+                copythis = '```Token:\x20' + window[_0x469644(0xb4a)] + _0x469644(0xa05) + window[_0x469644(0x245)] + '```', prompt('Copy\x20this', copythis);
+            }
+        }], {
+            'folder': _0x5f4db6(0x1414)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': 'display',
+            'label': _0x5f4db6(0x2ca0),
+            'object': lastSettings,
+            'property': _0x5f4db6(0x23ba)
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x16e2),
+            'object': Settings[_0x5f4db6(0x2367)],
+            'property': 'e',
+            'onChange': _0x1b0bb7 => {
+                var _0x91622b = _0x5f4db6;
+                Settings[_0x91622b(0x2367)]['e'] = _0x1b0bb7, Utils[_0x91622b(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x1874),
+            'label': _0x5f4db6(0x1d80),
+            'object': Settings[_0x5f4db6(0x2367)],
+            'property': 'm',
+            'onChange': _0x875b53 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': 'button',
+            'label': 'Add\x20Message\x20In\x20TrashTalker',
+            'action': _0x50e3a4 => {
+                var _0x203518 = _0x5f4db6;
+                trashword = Settings[_0x203518(0x2367)]['m'], lastSettings[_0x203518(0x23ba)] = trashword;
+            }
+        }], {
+            'folder': _0x5f4db6(0xa91)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0xaf2),
+            'label': _0x5f4db6(0x13b7),
+            'object': Settings,
+            'property': _0x5f4db6(0x1f57),
+            'onChange': _0x24938b => {
+                var _0x26d8c0 = _0x5f4db6;
+                Utils[_0x26d8c0(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0xaf2),
+            'label': 'EnabledHacks',
+            'object': Settings,
+            'property': 'hexlist',
+            'onChange': _0x403ace => {
+                var _0x579916 = _0x5f4db6;
+                Utils[_0x579916(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0xaf2),
+            'label': 'Esp',
+            'object': Settings,
+            'property': _0x5f4db6(0x2dc5),
+            'onChange': _0x23eb21 => {
+                var _0xd5d7fa = _0x5f4db6;
+                Utils[_0xd5d7fa(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0xaf2),
+            'label': _0x5f4db6(0x1ac9),
+            'object': Settings,
+            'property': _0x5f4db6(0x7b9),
+            'onChange': _0x149b10 => {
+                var _0x867aef = _0x5f4db6;
+                Utils[_0x867aef(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x160b),
+            'object': Settings,
+            'property': _0x5f4db6(0x1384),
+            'onChange': _0x4154c5 => {
+                var _0x24afde = _0x5f4db6;
+                Utils[_0x24afde(0x2aaf)]();
+            }
+        }], {
+            'folder': _0x5f4db6(0x9e9)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x1da8),
+            'label': _0x5f4db6(0x253)
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x14c6),
+            'object': Settings,
+            'property': _0x5f4db6(0x14c0),
+            'onChange': _0x234984 => {
+                var _0x4c91dc = _0x5f4db6;
+                Utils[_0x4c91dc(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x17f1),
+            'object': Settings,
+            'property': _0x5f4db6(0x4d0),
+            'onChange': _0x12ac8c => {
+                var _0x493c3b = _0x5f4db6;
+                Utils[_0x493c3b(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x1da8),
+            'label': 'Ocean\x20Tracers'
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x286b),
+            'object': Settings,
+            'property': _0x5f4db6(0x15ea),
+            'onChange': _0x3841b8 => {
+                var _0x5386bf = _0x5f4db6;
+                Utils[_0x5386bf(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x1afd),
+            'object': Settings,
+            'property': _0x5f4db6(0x1e31),
+            'onChange': _0x15d137 => {
+                var _0x576f7e = _0x5f4db6;
+                Utils[_0x576f7e(0x2aaf)]();
+            }
+        }, {
+            'type': 'title',
+            'label': _0x5f4db6(0xc39)
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x864),
+            'object': Settings,
+            'property': _0x5f4db6(0xd6e),
+            'onChange': _0x4f43d2 => {
+                var _0x2fc5f9 = _0x5f4db6;
+                Utils[_0x2fc5f9(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': 'Spider\x20Tracer',
+            'object': Settings,
+            'property': _0x5f4db6(0x1e0c),
+            'onChange': _0x152385 => {
+                var _0xfdea41 = _0x5f4db6;
+                Utils[_0xfdea41(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x22ad),
+            'object': Settings,
+            'property': _0x5f4db6(0x1a29),
+            'onChange': _0x2bacf0 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x11b1),
+            'object': Settings,
+            'property': _0x5f4db6(0x468),
+            'onChange': _0x3a3a5d => {
+                var _0x793e2d = _0x5f4db6;
+                Utils[_0x793e2d(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Hawk\x20Tracer',
+            'object': Settings,
+            'property': _0x5f4db6(0x1e8f),
+            'onChange': _0x575d89 => {
+                var _0x5706dc = _0x5f4db6;
+                Utils[_0x5706dc(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x4a3),
+            'object': Settings,
+            'property': _0x5f4db6(0x1a1f),
+            'onChange': _0x26e2b9 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2cea),
+            'object': Settings,
+            'property': _0x5f4db6(0x27ed),
+            'onChange': _0x21fe53 => {
+                var _0x34adc9 = _0x5f4db6;
+                Utils[_0x34adc9(0x2aaf)]();
+            }
+        }, {
+            'type': 'title',
+            'label': _0x5f4db6(0x1b2b)
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x165a),
+            'object': Settings,
+            'property': _0x5f4db6(0x2529),
+            'onChange': _0x5b5472 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x10a8),
+            'object': Settings,
+            'property': 'bear',
+            'onChange': _0x9c383 => {
+                var _0x83b564 = _0x5f4db6;
+                Utils[_0x83b564(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0xd55),
+            'object': Settings,
+            'property': _0x5f4db6(0x1ac6),
+            'onChange': _0x1685f6 => {
+                var _0x5b8292 = _0x5f4db6;
+                Utils[_0x5b8292(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Mammoth\x20Tracer',
+            'object': Settings,
+            'property': _0x5f4db6(0xefe),
+            'onChange': _0x269990 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0xa18),
+            'object': Settings,
+            'property': _0x5f4db6(0xce2),
+            'onChange': _0x50cabf => {
+                var _0x84d8e7 = _0x5f4db6;
+                Utils[_0x84d8e7(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x2473),
+            'object': Settings,
+            'property': _0x5f4db6(0x1a04),
+            'onChange': _0x3eb794 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x344),
+            'object': Settings,
+            'property': 'dragon',
+            'onChange': _0x4c08e5 => {
+                var _0x169d9e = _0x5f4db6;
+                Utils[_0x169d9e(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x1da8),
+            'label': 'Lava\x20Tracers'
+        }, {
+            'type': 'checkbox',
+            'label': 'Lava\x20Dragon\x20Tracer',
+            'object': Settings,
+            'property': _0x5f4db6(0x1a3c),
+            'onChange': _0x4cbffb => {
+                var _0x3aed78 = _0x5f4db6;
+                Utils[_0x3aed78(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x1c59),
+            'object': Settings,
+            'property': _0x5f4db6(0x14c8),
+            'onChange': _0x10bb88 => {
+                var _0x3739ac = _0x5f4db6;
+                Utils[_0x3739ac(0x2aaf)]();
+            }
+        }, {
+            'type': 'checkbox',
+            'label': _0x5f4db6(0x2085),
+            'object': Settings,
+            'property': _0x5f4db6(0x12c1),
+            'onChange': _0x540e33 => {
+                var _0x93a00e = _0x5f4db6;
+                Utils[_0x93a00e(0x2aaf)]();
+            }
+        }], {
+            'folder': _0x5f4db6(0x21f6)
+        }), _0x43c2cd[_0x5f4db6(0x1291)]([{
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2628),
+            'object': Settings,
+            'property': _0x5f4db6(0x145f),
+            'onChange': _0x1a957c => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x2392),
+            'object': Settings,
+            'property': _0x5f4db6(0x19b9),
+            'onChange': _0x4b99d6 => {
+                var _0x356bab = _0x5f4db6;
+                Utils[_0x356bab(0x2aaf)]();
+            }
+        }, {
+            'type': 'range',
+            'label': _0x5f4db6(0x1f0),
+            'min': 0x1,
+            'max': 0xc8,
+            'step': 0x1,
+            'object': Settings,
+            'property': 'hplimit1',
+            'onChange': _0x123e5c => {
+                var _0x58c70e = _0x5f4db6;
+                Utils[_0x58c70e(0x2aaf)]();
+            }
+        }, {
+            'type': _0x5f4db6(0x87e),
+            'label': 'AutoPut\x20Sword\x20Hp',
+            'min': 0x1,
+            'max': 0xc8,
+            'step': 0x1,
+            'object': Settings,
+            'property': _0x5f4db6(0x2c40),
+            'onChange': _0x59f619 => {
+                Utils['saveSettings']();
+            }
+        }, {
+            'type': _0x5f4db6(0x1da8),
+            'label': 'Auto\x20Buy\x20Stuff'
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x25e1),
+            'object': Settings,
+            'property': _0x5f4db6(0x579),
+            'onChange': _0x3666a3 => {}
+        }, {
+            'type': 'checkbox',
+            'label': 'Auto\x20Buy\x20Stone',
+            'object': Settings,
+            'property': _0x5f4db6(0x1735),
+            'onChange': _0x4f8518 => {}
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Auto\x20Buy\x20Gold',
+            'object': Settings,
+            'property': _0x5f4db6(0xdbd),
+            'onChange': _0x4a7c17 => {}
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0xc08),
+            'object': Settings,
+            'property': _0x5f4db6(0x2b00),
+            'onChange': _0x1f0667 => {}
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': _0x5f4db6(0x20ef),
+            'object': Settings,
+            'property': 'Ame',
+            'onChange': _0x5c4a96 => {}
+        }, {
+            'type': _0x5f4db6(0x4e4),
+            'label': 'Auto\x20Buy\x20Reidite',
+            'object': Settings,
+            'property': _0x5f4db6(0x15ca),
+            'onChange': _0x4479fc => {}
+        }], {
+            'folder': _0x5f4db6(0x3f5)
+        });
+    },
+    'controls': null,
+    'controller': class {
+        [_0x5d3842(0x1253)](_0x51cc3d) {
+            var _0x5dd10e = _0x5d3842;
+            Settings[_0x51cc3d]['k'] = _0x5dd10e(0x22a3);
+            let _0x4f122b = 0x0;
+            document[_0x5dd10e(0x26bc)]('keydown', function _0x1715ba(_0x4203ba) {
+                var _0x9dc361 = _0x5dd10e;
+                _0x4f122b++;
+                if (_0x4f122b >= 0x1) {
+                    _0x4203ba[_0x9dc361(0x2105)] == _0x9dc361(0x252) ? Settings[_0x51cc3d]['k'] = _0x9dc361(0x621) : Settings[_0x51cc3d]['k'] = _0x4203ba['code'];;
+                    document['removeEventListener'](_0x9dc361(0x2d50), _0x1715ba), Utils[_0x9dc361(0x2aaf)]();
+                };
+            });
+        }
+    },
+    'saveSettings': () => {
+        var _0x496ca4 = _0x5d3842;
+        for (let _0xec70c6 in Settings) {
+            localStorage['setItem'](_0xec70c6 + _0x496ca4(0x3d8), JSON[_0x496ca4(0x24df)](Settings[_0xec70c6]));
+        };
+    },
+    'loadSettings': () => {
+        var _0x3b411d = _0x5d3842;
+        for (let _0xa82f81 in Settings) {
+            let _0x385c57 = localStorage['getItem'](_0xa82f81 + 'winnerisloux2');
+            if (_0x385c57) Settings[_0xa82f81] = JSON[_0x3b411d(0x3dc)](_0x385c57);
+        };
+    },
+    'LoadHack': () => {
+        var _0x590af4 = _0x5d3842;
+        if (!window[_0x590af4(0x28ec)]) {
+            for (;;);
+        }
+        Utils[_0x590af4(0x1736)](), Settings[_0x590af4(0x17cf)]['e'] = ![], Settings[_0x590af4(0x2b41)]['e'] = ![], Settings[_0x590af4(0x74b)]['e'] = ![], Settings['Aimbot']['e'] = ![], Settings[_0x590af4(0x2337)]['e'] = ![], Settings[_0x590af4(0x2a54)]['e'] = ![], Settings['AutoVechile']['e'] = ![], Settings['AutoFire']['e'] = ![], Utils[_0x590af4(0x376)] = new Utils[(_0x590af4(0x2617))]();
+        let _0x2bb3a9 = document[_0x590af4(0x2355)](_0x590af4(0x16e8));
+        _0x2bb3a9['onload'] = function() {
+            var _0x3408ef = _0x590af4;
+            Utils[_0x3408ef(0x2ba4)]();
+        }, _0x2bb3a9[_0x590af4(0x155e)] = 'https://unpkg.com/guify@0.12.0/lib/guify.min.js', document[_0x590af4(0x2b52)]['appendChild'](_0x2bb3a9);
+    }
+};
   var v2 = 210;
   if (v2 >= 13) {
     v2 = 105;
